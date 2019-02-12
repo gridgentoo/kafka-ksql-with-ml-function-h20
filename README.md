@@ -1,4 +1,4 @@
-# ![KSQL rocket](pictures/ksq-lrocket.png) Deep Learning UDF for KSQL, the Streaming SQL for Apache Kafka
+# ![KSQL rocket](pictures/ksq-lrocket.png) Н20 глубокое обучение UDF для KSQL, потоковый SQL Engine для Kafka 
 
 <span style="color:red">*Important: This is a fork of the KSQL project to demonstrate how to built a User-Defined Function (UDF). The projects adds a H2O Deep Learning model.*</span>
 
