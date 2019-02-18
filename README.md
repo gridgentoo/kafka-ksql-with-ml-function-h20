@@ -1,4 +1,4 @@
-# ![KSQL rocket](pictures/ksq-lrocket.png) Н20 глубокое обучение UDF для KSQL, потоковый SQL Engine для Kafka 
+## ![KSQL rocket](pictures/ksq-lrocket.png) Н20 глубокое обучение UDF для KSQL, потоковый SQL Engine для Kafka 
 
 <span style="color:red">*Important: This is a fork of the KSQL project to demonstrate how to built a User-Defined Function (UDF). The projects adds a H2O Deep Learning model.*</span>
 
@@ -6,7 +6,7 @@ For the most up-to-date version, documentation and examples of KSQL, please go t
 
 <span style="color:red">*Update July 2018: KSQL now has official support for UDFs. This makes it much easier to implement UDFs. I built an updated example here: [KSQL UDF with Deep Learning using MQTT Proxy for Sensor Analytics](https://github.com/kaiwaehner/ksql-udf-deep-learning-mqtt-iot)... Also check out the Confluent Documentation for more information about the new UDF / UDAF features in [KSQL Custom Function Reference UDF / UDAF](https://docs.confluent.io/current/ksql/docs/udf.html)*</span>
 
-## Use Case: Continuous Health Checks with Anomaly Detection
+### Use Case: Continuous Health Checks with Anomaly Detection
 The following example leverages a pre-trained analytic model within a KSQL UDF for continuous stream processing in real time to do health checks and alerting in case of risk. The Kafka ecosystem is used for model serving, monitoring and alerting.
 
 ![](pictures/KSQL_UDF_Deep_Learning_IoT.png)
